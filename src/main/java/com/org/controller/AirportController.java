@@ -24,7 +24,7 @@ import com.org.service.AirportService;
 import com.org.service.AirportServiceImpl;
 @CrossOrigin("http://localhost:4200")
 @RestController
-//@RequestMapping("/airport")
+@RequestMapping("/airport")
 
 public class AirportController {
 	@Autowired(required = true)
