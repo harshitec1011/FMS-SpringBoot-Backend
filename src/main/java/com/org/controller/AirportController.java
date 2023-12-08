@@ -38,7 +38,7 @@ public class AirportController {
 	@GetMapping("/allAirport")
 //	public Iterable<Airport> viewAllAirport() {
 //		return airportService.viewAllAirport();
-	public String viewAll(String viewAllAirport){
+	public String viewAll(){
 		return "viewAllAirport api";
 
 	}
