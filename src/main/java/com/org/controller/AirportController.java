@@ -36,9 +36,9 @@ public class AirportController {
 	}
 
 	@GetMapping("/allAirport")
-	public void viewAll(){
-		System.out.println("this is Airport API");
-		//return "viewAllAirport api";
+	public String viewAll(){
+		//System.out.println("this is Airport API");
+		return "viewAllAirport api";
 //	public Iterable<Airport> viewAllAirport() {
 //		return airportService.viewAllAirport();
 
