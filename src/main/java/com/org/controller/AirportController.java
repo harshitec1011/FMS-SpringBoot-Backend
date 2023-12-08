@@ -39,7 +39,7 @@ public class AirportController {
 //	public Iterable<Airport> viewAllAirport() {
 //		return airportService.viewAllAirport();
 	public String viewAll(String viewAllAirport){
-		return viewAllAirport;
+		return "viewAllAirport api";
 
 	}
 
