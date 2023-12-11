@@ -34,6 +34,7 @@ public class FmsSpringBootBackendApplication  {
 		logger.warn("Hey, This is a warning!");
 		logger.error("Oops! We have an Error. OK");
 		//logger.fatal("Damn! Fatal error. Please fix me.");
+		System.out.println("this is home page");
 	}
 
 	//@Override
