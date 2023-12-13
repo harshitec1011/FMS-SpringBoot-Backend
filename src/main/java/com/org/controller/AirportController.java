@@ -22,9 +22,10 @@ import com.org.model.Airport;
 import com.org.model.Flight;
 import com.org.service.AirportService;
 import com.org.service.AirportServiceImpl;
-@CrossOrigin("http://localhost:4200")
+//@CrossOrigin("http://localhost:4200")
+@CrossOrigin("*")
 @RestController
-//@RequestMapping("/airport")
+@RequestMapping("/airport")
 public class AirportController {
 	@Autowired(required = true)
 	AirportService airportService;
@@ -35,7 +36,7 @@ public class AirportController {
 		return airportService.viewAirport(airportCode);
 	}
 
-	@GetMapping("/")
+	@GetMapping("/allAirport")
 	public String viewAll(){
 		//System.out.println("this is Airport API");
 		return "viewAllAirport api";
